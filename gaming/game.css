@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #201b2c;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    width: 600px;
+    height: 500px;
+    background-color: #00ff88;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+    
+}
+
+.text1 {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    text-align: center;
+    top: 35rem;
+    color: #00ff88;
+    text-shadow: 0px 5px 10px #00ff8052;
+}
+
+.links {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    align-items: center;
+    top: 40rem;
+}
+
+.profile1 {
+    margin: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #201b2c;
+    text-decoration: none;
+    background-color: #00ff88;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.profile1:hover {
+    background-color: #201b2c;
+    color: #00ff88;
+}
+
+.git {
+    position: absolute;
+    left: 7.2rem;
+
+}
+
+.linkedin {
+    position: absolute;
+    left: 17rem;
+}
